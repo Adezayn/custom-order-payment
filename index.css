@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'Red Hat';
+    src:url('/font/RedHatDisplay-VariableFont_wght.ttf') format('truetype')
+}
+html{
+font-size:16px;
+}
+body,*,*::after,*::before{
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    font-family: 'Red Hat', sans-serif;
+    font-size: medium;
+    font-weight: 600;
+    background: url(/images/pattern-background-desktop.svg);
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+}
+.card{
+    position: relative;
+    top:3rem;
+    background-color: #fff;
+    width:450px;
+    margin:auto;
+    border-radius: 10px;
+}
+.card img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.music-order{
+    background-color: hsl(225, 100%, 98%);
+    width: 90%;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding:10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.centering{
+    padding:20px 0;
+    text-align: center;
+}
+button{
+    background: hsl(245, 75%, 52%);
+    color:#fff;
+    width:90%;
+    padding:10px 0;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.attribution {
+    font-size: 11px; text-align: center;
+    padding:5px 0;
+    position: fixed;
+    bottom:0;
+    left:40%;
+ }
+.attribution a { color: hsl(228, 45%, 44%); }
