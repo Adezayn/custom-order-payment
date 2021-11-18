@@ -11,46 +11,77 @@ body,*,*::after,*::before{
 }
 body{
     font-family: 'Red Hat', sans-serif;
-    font-size: medium;
-    font-weight: 600;
+    color: hsl(191, 11%, 64%);
+    font-weight: 500;
     background: url(/images/pattern-background-desktop.svg);
     background-color: hsl(225, 100%, 94%);
+    
     background-repeat: no-repeat;
 }
 .card{
     position: relative;
-    top:3rem;
+    top:2rem;
     background-color: #fff;
-    width:450px;
+    width:400px;
     margin:auto;
     border-radius: 10px;
 }
-.card img{
+.card-wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+.card > img{
+    width:400px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
-
+.card h2{
+    font-weight: 900;
+    padding: 0.5rem 0;
+    color: hsl(223, 47%, 23%);
+}
+.card h3{
+    padding-bottom: 0.2rem;
+    color: hsl(223, 47%, 23%);
+}
 .music-order{
     background-color: hsl(225, 100%, 98%);
     width: 90%;
     border-radius: 15px;
     margin: 0 auto;
-    padding:10px 0;
+    padding:15px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
 }
+.item:first-child{
+    padding-right: 1rem;
+}
+.music-order a{
+    color:hsl(245, 75%, 52%);
+}
+.music-order a:hover{
+    text-decoration: none;
+}
 .centering{
+    width:90%;
+    margin:0 auto;
     padding:20px 0;
     text-align: center;
+}
+.price{
+    font-size: 1rem;
+    margin-right: auto;
 }
 button{
     background: hsl(245, 75%, 52%);
     color:#fff;
-    width:90%;
+    width:100%;
     padding:10px 0;
     border-radius: 10px;
     border-color: transparent;
+}
+button + p{
+    margin-top: 1rem;
 }
 .attribution {
     font-size: 11px; text-align: center;
