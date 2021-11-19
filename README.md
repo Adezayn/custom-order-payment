@@ -12,7 +12,7 @@ Users should be able to:
 <img src="/design/finished-products/Frontend Mentor _ Order summary card-desktop.png">
 Desktop view
 
-<img src="/design/finished-products/Frontend Mentor _ Order summary card -mobile.png)">
+<img src="/design/finished-products/Frontend Mentor _ Order summary card-mobile.png">
 Mobile view
 
 ### Built with
