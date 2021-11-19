@@ -9,10 +9,10 @@ Users should be able to:
 - The design should also be responsive.
 
 ### Screenshot
-![](./design/finished-products/Frontend Mentor _ Order summary card-desktop.png)
+<img src="/design/finished-products/Frontend Mentor _ Order summary card-desktop.png">
 Desktop view
 
-![](./design/finished-products/Frontend Mentor _ Order summary card -mobile.png)
+<img src="/design/finished-products/Frontend Mentor _ Order summary card -mobile.png)">
 Mobile view
 
 ### Built with
